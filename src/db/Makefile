@@ -11,6 +11,7 @@ OBJS =	edge.o			\
 	tuple_util.o		\
 	vertex.o		\
 	vertexid.o
+	dijkstra_to_normal_form.o
 
 TGT = libdb.a
 
