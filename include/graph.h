@@ -89,4 +89,6 @@ void remove_vertex(graph_t g, vertex_t v);
 void cst_graph_complete_vertex(cst_graph_t g, vertex_t v);
 void cst_graph_complete_edge(cst_graph_t g, edge_t e);
 void cst_grow(vertex_t v, graph_t g);
+void cst_graph_insert(cst_graph_t cst_g);
+void cst_sets_graph(graph_t g);
 #endif
